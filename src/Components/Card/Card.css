@@ -1,0 +1,105 @@
+.card-container {
+    width: 100%;
+    padding: 1.5rem; /* Adjusted padding for more space */
+    border-radius: 8px; /* Increased border radius for rounded corners */
+    border: 1px solid #ddd; /* Changed border color */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Adjusted box shadow for a more subtle effect */
+    background-color: azure; /* Changed background color */
+    margin-bottom: 1.5rem; /* Adjusted margin */
+    cursor: pointer;
+  }
+  
+  .card-id-wrapper {
+    display: flex;
+    align-items: center; /* Centered vertically */
+    justify-content: space-between;
+  }
+  
+  .card-id {
+    color: #555; /* Changed text color */
+    font-size: 0.9rem; /* Adjusted font size */
+    font-weight: 500;
+  }
+  
+  .card-profile {
+    height: 30px; /* Adjusted height */
+    width: 30px; /* Adjusted width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #e67e22; /* Changed background color */
+    border-radius: 50%;
+    font-size: 1rem; /* Adjusted font size */
+    position: relative;
+  }
+  
+  .card-profile-initial {
+    text-transform: uppercase;
+  }
+  
+  .card-profile-initial-available {
+    height: 14px; /* Adjusted height */
+    width: 14px; /* Adjusted width */
+    background-color: azure; /* Changed background color */
+    border: 2px solid #fff; /* Changed border color */
+    position: absolute;
+    z-index: 0;
+    border-radius: 50%;
+    left: 70%;
+    top: 70%;
+  }
+  
+  .card-profile-initial-available-true {
+    background-color: #48df0c; /* Changed background color */
+  }
+  
+  .card-title {
+    font-size: 1.2rem; /* Adjusted font size */
+    font-weight: 600;
+    color: #333; /* Changed text color */
+  }
+  
+  .card-tag {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem; /* Adjusted margin */
+  }
+  
+  .card-tag-icon {
+    border: 1px solid #ccc; /* Changed border color */
+    border-radius: 4px; /* Increased border radius */
+    padding: 0.3rem; /* Added padding */
+    display: flex;
+    align-items: center;
+    margin-right: 0.5rem;
+  }
+  
+  .card-tag-icon > svg {
+    color: #555; /* Changed text color */
+    height: 1.5rem; /* Adjusted height */
+  }
+  
+  .card-tag-box {
+    border: 1px solid #ccc; /* Changed border color */
+    padding: 0.3rem;
+    border-radius: 4px; /* Increased border radius */
+    margin-right: 0.5rem;
+  }
+  
+  .card-tag-title {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #555; /* Changed text color */
+  }
+  
+  .card-tag-title::before {
+    display: inline-block;
+    content: " ";
+    height: 10px;
+    width: 10px;
+    background-color: #555; /* Changed color */
+    border-radius: 50%;
+    margin-right: 0.2rem;
+  }
+  
